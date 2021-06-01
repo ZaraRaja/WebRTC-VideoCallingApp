@@ -5,14 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "run-script build"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
-    "socket.io": "^4.0.2"
+    "socket.io": "^4.0.2",
+    "webpack": "^5.38.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.0"
   }
 }
